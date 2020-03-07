@@ -273,7 +273,7 @@
 <wire x1="-20.32" y1="-5.715" x2="-19.05" y2="-4.445" width="0.127" layer="21" curve="90"/>
 <wire x1="-20.32" y1="-5.715" x2="-13.97" y2="-5.715" width="0.127" layer="21"/>
 </package>
-<package name="GY-91">
+<package name="10DOF-GY-91">
 <wire x1="-6.35" y1="9" x2="8.28" y2="9" width="0.127" layer="21"/>
 <wire x1="8.28" y1="9" x2="8.28" y2="-12" width="0.127" layer="21"/>
 <wire x1="8.28" y1="-12" x2="-6.35" y2="-12" width="0.127" layer="21"/>
@@ -305,7 +305,7 @@
 <text x="-2.54" y="10.795" size="1.778" layer="95">&gt;NAME</text>
 <text x="-3.81" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
 </symbol>
-<symbol name="GY-91">
+<symbol name="10DOF-GY-91">
 <wire x1="-7.62" y1="10.16" x2="-7.62" y2="-12.7" width="0.254" layer="94"/>
 <wire x1="-7.62" y1="-12.7" x2="5.08" y2="-12.7" width="0.254" layer="94"/>
 <wire x1="5.08" y1="-12.7" x2="5.08" y2="10.16" width="0.254" layer="94"/>
@@ -343,12 +343,12 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="GY-91">
+<deviceset name="10DOF-GY91">
 <gates>
-<gate name="G$1" symbol="GY-91" x="33.02" y="2.54"/>
+<gate name="G$1" symbol="10DOF-GY-91" x="33.02" y="2.54"/>
 </gates>
 <devices>
-<device name="" package="GY-91">
+<device name="" package="10DOF-GY-91">
 <connects>
 <connect gate="G$1" pin="3V3" pad="3V3"/>
 <connect gate="G$1" pin="CSB" pad="CSB"/>
@@ -379,7 +379,7 @@
 <parts>
 <part name="U$1" library="Teensy_3_and_LC_Series_Boards_v1.4" deviceset="TEENSY_LC_DIL" device=""/>
 <part name="U$2" library="macrocketry_2019" deviceset="SD_CARD_READER" device=""/>
-<part name="U$3" library="macrocketry_2019" deviceset="GY-91" device=""/>
+<part name="U$3" library="macrocketry_2019" deviceset="10DOF-GY91" device=""/>
 </parts>
 <sheets>
 <sheet>

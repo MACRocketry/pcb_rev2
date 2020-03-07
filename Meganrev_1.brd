@@ -199,7 +199,7 @@
 <wire x1="-20.32" y1="-5.715" x2="-19.05" y2="-4.445" width="0.127" layer="21" curve="90"/>
 <wire x1="-20.32" y1="-5.715" x2="-13.97" y2="-5.715" width="0.127" layer="21"/>
 </package>
-<package name="GY-91">
+<package name="10DOF-GY-91">
 <wire x1="-6.35" y1="9" x2="8.28" y2="9" width="0.127" layer="21"/>
 <wire x1="8.28" y1="9" x2="8.28" y2="-12" width="0.127" layer="21"/>
 <wire x1="8.28" y1="-12" x2="-6.35" y2="-12" width="0.127" layer="21"/>
@@ -415,7 +415,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="13.97" y="39.37" size="1.27" layer="27" font="vector"/>
 </element>
 <element name="U$2" library="macrocketry_2019" package="MICRO_SD_READER_3V3" value="SD_CARD_READER" x="17.78" y="24.13" smashed="yes" rot="R90"/>
-<element name="U$3" library="macrocketry_2019" package="GY-91" value="GY-91" x="20.32" y="52.07" smashed="yes"/>
+<element name="U$3" library="macrocketry_2019" package="10DOF-GY-91" value="10DOF-GY91" x="20.32" y="52.07" smashed="yes"/>
 </elements>
 <signals>
 <signal name="N$2">
